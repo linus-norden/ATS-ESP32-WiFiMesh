@@ -1,0 +1,5 @@
+.devcontainer
+.vscode
+sdkconfig*
+!sdkconfig.defaults
+test.txt
