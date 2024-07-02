@@ -1,9 +1,12 @@
 | Supported Targets | ESP32 | ESP32-C3 | ESP32-S2 | ESP32-S3 |
 | ----------------- | ----- | -------- | -------- | -------- |
 
-# ATS mesh component
-This component is a modification of the official Espressif mesh example.
-It reduces the functionality to the application needs and adds processing of the serial data from the connected scan board.
+# ATS - Mesh-Board
+
+This adaptation of the Mesh IP Internal Networking example is one component of a Hub consisting of two ESP32-Boards.
+It was developed as part of a bachelor's thesis about Asset Tracking in Hospitals written in German. The modified programme section is therefore commented in German.
+
+This component reduces the functionality to the application needs and adds processing of the serial data from the connected Scan-Board.
 
 Port configuration of serial interface with the scan board can be found in the main.c
 
@@ -11,7 +14,8 @@ Port configuration of serial interface with the scan board can be found in the m
 ## MQTT-configuration
 To configure servername and account, please edit the mqtt_app_start() in file mqtt_app.c
 
-Original example readme follws....
+
+Original example readme:
 
 
 # Mesh IP Internal Networking example
