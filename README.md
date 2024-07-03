@@ -15,6 +15,21 @@ Port configuration of serial interface with the scan board can be found in the m
 To configure servername and account, please edit the mqtt_app_start() in file mqtt_app.c
 
 
+## All Repositories needed to build ATS:
+https://github.com/linus-norden/mosquitto-UNIX-time
+
+https://github.com/linus-norden/ATS-ESP32-BLEScan
+
+https://github.com/linus-norden/ATS-ESP32-WiFiMesh
+
+https://github.com/linus-norden/ATS-WebApp-Frontend
+
+https://github.com/linus-norden/ATS-WebApp-Backend
+
+https://github.com/linus-norden/ATS-Python-Microservice
+
+https://github.com/linus-norden/ATS-SQL-DB
+
 Original example readme:
 
 
